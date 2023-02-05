@@ -1,6 +1,11 @@
 const allInputs = document.querySelectorAll(".input");
 const submitButton = document.querySelector("#submit-button");
 const outputMessage = document.querySelector(".output");
+const quizButton = document.querySelector(".quiz-button");
+
+quizButton.onClick = () => {
+  href = "./quiz.html";
+};
 // console.log(angle1.value);
 
 submitButton.addEventListener("click", isTriangle);
